@@ -9,53 +9,67 @@
     <script src="doc.js"></script>
 </head>
 <body>
+    <header>
+        <br><br>
+        <h1>myWeather Unlimited</h1>
+    </header>
 
-    <div class="head">
-        <h1> OPEN WEATHER API</h1>
+    <div class="middle container">
+        <div class="middle box left">
+            <p>We will use the <a href="https://rapidapi.com/community/api/open-weather-map/">Open Weather Map</a> API.</p>
+            <br>
+            <p>This API will be used to retrieve the current weather and future forecast of the user's entered location.
+                This should allow the user to plan for today and ahead, such as clothing to wear and outdoor plans.</p>
+            <br>
+            <p>From the user, we will collect login information and a list of his favorite location (that he will save to read the weather from).</p>
+            <br>
+            <p>USER -> id, fname, lname, email, password, current-location; FAVORITES -> id, favorited-location</p>
+          </div>
+
+          <div class="middle box right">
+              <p>This app shall be used by commuters, vacationers, people planning outdoor activities, and travellers.</p>
+              <br>
+              <p>This site aims to:
+                <br>
+                (1) Help user make choices according to the current and future forecasts
+                <br>
+                (2) Show the user the forecasts of his favorite'd locations upon login
+              </p>
+              <br>
+              <p>
+                  We wanted to work with a simple API so we could learn the basics of web-dev easily.
+                  We also chose this API because it is something that can be readily used by anyone.
+              </p>
+          </div>
     </div>
     
-    <section class="tommy">
-        <div class="divone">
-          <li class="lists">
-              <ol><a href="https://rapidapi.com/community/api/open-weather-map/">Open weather map</a></ol>
-              <ol>We will get the current weather and future forecast. This should allow the user to plan for today and head, such as clothing to wear and outdoor plans.</ol>
-              <ol>Favorite place (to get weather data from), login information</ol>
-              <ol>USER -> fname, lname, email, password, favorite-cities (???)</ol>
-          </li>
-        </div>
-        <div class="divtwo">
-            <li>
-                <ol>People who have to travel to work, vacationers, people planning outdoor activities, travellers</ol>
-                <ol>(1) Help user make choices according to current and future forecast
-                    <br>
-                    (2) Show the user his favorites' forecasts when he logs in
-                </ol>
-                <ol>We wanted to work on a weather api</ol>
-            </li>
-        </div>
-    </section>
 
-    <section class="jerry">
-        <div class="divthree">
-          <h2>List1</h2>  
-          -"https://rapidapi.com/community/api/open-weather-map/"</br>
-          -weather.com, accuweather.com</br>
-          -w3schools, cs484 course videos, web dev simplified</br>
-      </div>
-        <div class="divfour">
-            <h2>List2</h2></br>
-            -what is a good way to host your site? heroku vs aws</br>
-            -</br>
+    <div class="bottom container">
+        <div class="bottom box left">
+          <h2>List Resource Links</h2>
+          <p>API Link: <a href="https://rapidapi.com/community/api/open-weather-map/">Open Weather Map</a></p>
+          <br>
+          <p>Sites to model: weather.com, accuweather.com</p>
+          <br>
+          <p>Resources: w3schools, cs484 course videos, YouTube (Web Dev Simplified)</p>
+          </br>
         </div>
-        <div class="divfive">
-            <h2>List3</h2</br>
+
+        <div class="bottom box center">
+            <h2>List questions + Concerns</h2>
+            <p>What is a good way to host your site? (heroku vs AWS)</p>
+            </br>
+        </div>
+
+        <div class="bottom box right">
+            <h2>Accessibility implementation</h2>
                 <div class="">
                     <label for="">input font:</label>
-                    <input type="number" id="fontsize" min="6" max="60">
-                    <input type="button" onclick="setFontSize();">
+                    <input type="number" id="fontsize">
+                    <input type="button" value="set font" onclick="setFontSize();">
                 </div>
         </div>
-    </section>
+    </div>
 
 </body>
 </html>
