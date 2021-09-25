@@ -12,7 +12,7 @@
  -----------------
  Our Project will have a main branch which will basically have the main version of our project on which we will push the final pushes.
  
- We both divide the assignments/ project in such a way so that both of the team members get to learn every part of it. We both plan the assignment/project in an in-person meeting or virtually over Discord and choose the tasks we can do or need to work together on.
+ We both divide the assignments/ project in such a way so that both of the team members get to learn every part of it. We both plan the assignment/project in an in-person meeting or virtually over Discord and choose the tasks we can do or need to work together on. Generally, Yusuf will direct the frontend and Aman will direct the backend.
  
  If there is any problem or fixes that need to be done we contact each other and get it done. We will follow all the agile practices and discuss the work being done daily.
  
